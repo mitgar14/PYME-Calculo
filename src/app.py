@@ -300,6 +300,8 @@ df = limpieza_columnas(df)
 '''
 app = dash.Dash(__name__, suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.MORPH])
 
+server = app.server
+
 # Definir la función para crear el gráfico de competencia
 def grafico_competencia(df):
     

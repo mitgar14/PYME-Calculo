@@ -1,6 +1,6 @@
-dash==2.6.0
+plotly
+dash
 pandas
 dash_bootstrap_components
-plotly
 gunicorn
 openpyxl
